@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0034C3BC1C318D410087DB48 /* WaterfallViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0034C3BB1C318D410087DB48 /* WaterfallViewCell.m */; };
-		0034C3BE1C318E300087DB48 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0034C3BD1C318E300087DB48 /* 1.png */; };
-		392A0FBD1C324F5200451FEB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 392A0FBC1C324F5200451FEB /* 2.png */; };
+		007FD3531C48C03E002FA67F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FD33B1C48C03E002FA67F /* AppDelegate.m */; };
+		007FD3541C48C03E002FA67F /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FD33F1C48C03E002FA67F /* YLViewController.m */; };
+		007FD3551C48C03E002FA67F /* YLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FD3421C48C03E002FA67F /* YLCollectionViewCell.m */; };
+		007FD3561C48C03E002FA67F /* YLWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FD3451C48C03E002FA67F /* YLWaterfallLayout.m */; };
+		007FD3571C48C03E002FA67F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FD3491C48C03E002FA67F /* ViewController.m */; };
+		007FD3581C48C03E002FA67F /* WaterfallViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FD34C1C48C03E002FA67F /* WaterfallViewCell.m */; };
+		007FD3591C48C03E002FA67F /* YLWaterfallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FD34F1C48C03E002FA67F /* YLWaterfallView.m */; };
+		007FD35A1C48C03E002FA67F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 007FD3511C48C03E002FA67F /* 1.png */; };
+		007FD35B1C48C03E002FA67F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 007FD3521C48C03E002FA67F /* 2.png */; };
 		39F49BB51C2BC75500429CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F49BB41C2BC75500429CD8 /* main.m */; };
-		39F49BB81C2BC75500429CD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F49BB71C2BC75500429CD8 /* AppDelegate.m */; };
-		39F49BBB1C2BC75500429CD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F49BBA1C2BC75500429CD8 /* ViewController.m */; };
 		39F49BBE1C2BC75500429CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F49BBC1C2BC75500429CD8 /* Main.storyboard */; };
 		39F49BC01C2BC75500429CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F49BBF1C2BC75500429CD8 /* Assets.xcassets */; };
 		39F49BC31C2BC75500429CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F49BC11C2BC75500429CD8 /* LaunchScreen.storyboard */; };
 		39F49BCE1C2BC75600429CD8 /* YLWaterfallViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F49BCD1C2BC75600429CD8 /* YLWaterfallViewTests.m */; };
 		39F49BD91C2BC75600429CD8 /* YLWaterfallViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F49BD81C2BC75600429CD8 /* YLWaterfallViewUITests.m */; };
-		39F49BE91C2BC7C400429CD8 /* YLWaterfallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F49BE81C2BC7C400429CD8 /* YLWaterfallView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +42,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0034C3BA1C318D410087DB48 /* WaterfallViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallViewCell.h; sourceTree = "<group>"; };
-		0034C3BB1C318D410087DB48 /* WaterfallViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallViewCell.m; sourceTree = "<group>"; };
-		0034C3BD1C318E300087DB48 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		392A0FBC1C324F5200451FEB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		007FD33A1C48C03E002FA67F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		007FD33B1C48C03E002FA67F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		007FD33E1C48C03E002FA67F /* YLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
+		007FD33F1C48C03E002FA67F /* YLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
+		007FD3411C48C03E002FA67F /* YLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCollectionViewCell.h; sourceTree = "<group>"; };
+		007FD3421C48C03E002FA67F /* YLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCollectionViewCell.m; sourceTree = "<group>"; };
+		007FD3441C48C03E002FA67F /* YLWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWaterfallLayout.h; sourceTree = "<group>"; };
+		007FD3451C48C03E002FA67F /* YLWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWaterfallLayout.m; sourceTree = "<group>"; };
+		007FD3481C48C03E002FA67F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		007FD3491C48C03E002FA67F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		007FD34B1C48C03E002FA67F /* WaterfallViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallViewCell.h; sourceTree = "<group>"; };
+		007FD34C1C48C03E002FA67F /* WaterfallViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallViewCell.m; sourceTree = "<group>"; };
+		007FD34E1C48C03E002FA67F /* YLWaterfallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLWaterfallView.h; sourceTree = "<group>"; };
+		007FD34F1C48C03E002FA67F /* YLWaterfallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLWaterfallView.m; sourceTree = "<group>"; };
+		007FD3511C48C03E002FA67F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		007FD3521C48C03E002FA67F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		39F49BB01C2BC75500429CD8 /* YLWaterfallView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLWaterfallView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F49BB41C2BC75500429CD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		39F49BB61C2BC75500429CD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		39F49BB71C2BC75500429CD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		39F49BB91C2BC75500429CD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		39F49BBA1C2BC75500429CD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		39F49BBD1C2BC75500429CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39F49BBF1C2BC75500429CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39F49BC21C2BC75500429CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,8 +70,6 @@
 		39F49BD41C2BC75600429CD8 /* YLWaterfallViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLWaterfallViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F49BD81C2BC75600429CD8 /* YLWaterfallViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLWaterfallViewUITests.m; sourceTree = "<group>"; };
 		39F49BDA1C2BC75600429CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39F49BE71C2BC7C400429CD8 /* YLWaterfallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLWaterfallView.h; path = YLWaterfallView/YLWaterfallView.h; sourceTree = "<group>"; };
-		39F49BE81C2BC7C400429CD8 /* YLWaterfallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLWaterfallView.m; path = YLWaterfallView/YLWaterfallView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		007FD3381C48C03E002FA67F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				007FD3391C48C03E002FA67F /* AppDelegate */,
+				007FD33C1C48C03E002FA67F /* waterfall-collectionView */,
+				007FD3461C48C03E002FA67F /* waterfall-scrollView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		007FD3391C48C03E002FA67F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				007FD33A1C48C03E002FA67F /* AppDelegate.h */,
+				007FD33B1C48C03E002FA67F /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		007FD33C1C48C03E002FA67F /* waterfall-collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				007FD33D1C48C03E002FA67F /* controller */,
+				007FD3401C48C03E002FA67F /* view */,
+				007FD3431C48C03E002FA67F /* YLWaterfallLayout */,
+			);
+			path = "waterfall-collectionView";
+			sourceTree = "<group>";
+		};
+		007FD33D1C48C03E002FA67F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				007FD33E1C48C03E002FA67F /* YLViewController.h */,
+				007FD33F1C48C03E002FA67F /* YLViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		007FD3401C48C03E002FA67F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				007FD3411C48C03E002FA67F /* YLCollectionViewCell.h */,
+				007FD3421C48C03E002FA67F /* YLCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		007FD3431C48C03E002FA67F /* YLWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				007FD3441C48C03E002FA67F /* YLWaterfallLayout.h */,
+				007FD3451C48C03E002FA67F /* YLWaterfallLayout.m */,
+			);
+			path = YLWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		007FD3461C48C03E002FA67F /* waterfall-scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				007FD3471C48C03E002FA67F /* controller */,
+				007FD34A1C48C03E002FA67F /* view */,
+				007FD34D1C48C03E002FA67F /* YLWaterfallView */,
+			);
+			path = "waterfall-scrollView";
+			sourceTree = "<group>";
+		};
+		007FD3471C48C03E002FA67F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				007FD3481C48C03E002FA67F /* ViewController.h */,
+				007FD3491C48C03E002FA67F /* ViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		007FD34A1C48C03E002FA67F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				007FD34B1C48C03E002FA67F /* WaterfallViewCell.h */,
+				007FD34C1C48C03E002FA67F /* WaterfallViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		007FD34D1C48C03E002FA67F /* YLWaterfallView */ = {
+			isa = PBXGroup;
+			children = (
+				007FD34E1C48C03E002FA67F /* YLWaterfallView.h */,
+				007FD34F1C48C03E002FA67F /* YLWaterfallView.m */,
+			);
+			path = YLWaterfallView;
+			sourceTree = "<group>";
+		};
+		007FD3501C48C03E002FA67F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				007FD3511C48C03E002FA67F /* 1.png */,
+				007FD3521C48C03E002FA67F /* 2.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		39F49BA71C2BC75500429CD8 = {
 			isa = PBXGroup;
 			children = (
@@ -111,15 +222,8 @@
 		39F49BB21C2BC75500429CD8 /* YLWaterfallView */ = {
 			isa = PBXGroup;
 			children = (
-				39F49BB61C2BC75500429CD8 /* AppDelegate.h */,
-				39F49BB71C2BC75500429CD8 /* AppDelegate.m */,
-				39F49BB91C2BC75500429CD8 /* ViewController.h */,
-				39F49BBA1C2BC75500429CD8 /* ViewController.m */,
-				0034C3BA1C318D410087DB48 /* WaterfallViewCell.h */,
-				0034C3BB1C318D410087DB48 /* WaterfallViewCell.m */,
-				0034C3BD1C318E300087DB48 /* 1.png */,
-				392A0FBC1C324F5200451FEB /* 2.png */,
-				39F49BE61C2BC77200429CD8 /* YLWaterfallView */,
+				007FD3381C48C03E002FA67F /* Classes */,
+				007FD3501C48C03E002FA67F /* images */,
 				39F49BBC1C2BC75500429CD8 /* Main.storyboard */,
 				39F49BBF1C2BC75500429CD8 /* Assets.xcassets */,
 				39F49BC11C2BC75500429CD8 /* LaunchScreen.storyboard */,
@@ -153,15 +257,6 @@
 				39F49BDA1C2BC75600429CD8 /* Info.plist */,
 			);
 			path = YLWaterfallViewUITests;
-			sourceTree = "<group>";
-		};
-		39F49BE61C2BC77200429CD8 /* YLWaterfallView */ = {
-			isa = PBXGroup;
-			children = (
-				39F49BE71C2BC7C400429CD8 /* YLWaterfallView.h */,
-				39F49BE81C2BC7C400429CD8 /* YLWaterfallView.m */,
-			);
-			name = YLWaterfallView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,9 +364,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F49BC31C2BC75500429CD8 /* LaunchScreen.storyboard in Resources */,
+				007FD35A1C48C03E002FA67F /* 1.png in Resources */,
+				007FD35B1C48C03E002FA67F /* 2.png in Resources */,
 				39F49BC01C2BC75500429CD8 /* Assets.xcassets in Resources */,
-				392A0FBD1C324F5200451FEB /* 2.png in Resources */,
-				0034C3BE1C318E300087DB48 /* 1.png in Resources */,
 				39F49BBE1C2BC75500429CD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,10 +392,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F49BBB1C2BC75500429CD8 /* ViewController.m in Sources */,
-				0034C3BC1C318D410087DB48 /* WaterfallViewCell.m in Sources */,
-				39F49BB81C2BC75500429CD8 /* AppDelegate.m in Sources */,
-				39F49BE91C2BC7C400429CD8 /* YLWaterfallView.m in Sources */,
+				007FD3571C48C03E002FA67F /* ViewController.m in Sources */,
+				007FD3531C48C03E002FA67F /* AppDelegate.m in Sources */,
+				007FD3561C48C03E002FA67F /* YLWaterfallLayout.m in Sources */,
+				007FD3551C48C03E002FA67F /* YLCollectionViewCell.m in Sources */,
+				007FD3541C48C03E002FA67F /* YLViewController.m in Sources */,
+				007FD3581C48C03E002FA67F /* WaterfallViewCell.m in Sources */,
+				007FD3591C48C03E002FA67F /* YLWaterfallView.m in Sources */,
 				39F49BB51C2BC75500429CD8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

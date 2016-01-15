@@ -28,4 +28,11 @@
     self.imageView.frame = self.contentView.bounds;//CGRectMake(0, 0, self.frame.size.width * 0.8, self.frame.size.height * 0.8);
 }
 
+- (void)setSelected:(BOOL)selected
+{
+    [super setSelected:selected];
+    
+    self.imageView.image = selected ? [UIImage imageNamed:@"1"] : [UIImage imageNamed:@"2"];
+}
+
 @end

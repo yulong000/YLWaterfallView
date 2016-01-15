@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YLViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    YLViewController *vc = [[YLViewController alloc] init];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

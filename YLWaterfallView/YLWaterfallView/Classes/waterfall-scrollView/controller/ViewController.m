@@ -24,7 +24,7 @@
     waterfallView.dataSource = self;
     [self.view addSubview:waterfallView];
     [waterfallView reloadData];
-    
+
 }
 
 - (NSInteger)numberOfSectionsInWaterfallView:(YLWaterfallView *)waterfallView
