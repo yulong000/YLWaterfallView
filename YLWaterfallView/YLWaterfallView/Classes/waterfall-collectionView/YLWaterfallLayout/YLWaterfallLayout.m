@@ -8,13 +8,11 @@
 
 #import "YLWaterfallLayout.h"
 
-#define kWaterfallViewColumnNumberDefault 3         // 默认的每个分组的列数
-
-#define kWaterfallViewColumnSpaceDefault 10         // 默认的列距
-#define kWaterfallViewLineSpaceDefault   10         // 默认的行距
-#define kWaterfallViewHeightForItemDefault 100      // 默认的 cell 高度
-
-#define kWaterfallViewSectionInsetDefault UIEdgeInsetsMake(10, 10, 10, 10)  // 默认的分组的 inset
+#define kWaterfallViewColumnNumberDefault   3                                   // 默认的每个分组的列数
+#define kWaterfallViewColumnSpaceDefault    10                                  // 默认的列距
+#define kWaterfallViewLineSpaceDefault      10                                  // 默认的行距
+#define kWaterfallViewHeightForItemDefault  100                                 // 默认的 cell 高度
+#define kWaterfallViewSectionInsetDefault   UIEdgeInsetsMake(10, 10, 10, 10)    // 默认的分组的 inset
 
 
 @interface YLWaterfallLayout ()

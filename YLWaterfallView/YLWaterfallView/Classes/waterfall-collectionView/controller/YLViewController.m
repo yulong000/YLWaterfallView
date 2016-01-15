@@ -23,6 +23,7 @@ static NSString * const identifier = @"CollectionViewCell";
     [super viewDidLoad];
     
     YLWaterfallLayout *layout = [[YLWaterfallLayout alloc] init];
+    layout.columnNumber = 4;
     layout.columnSpace = 15;
     layout.lineSpace = 5;
 //    layout.itemHeight = 50;

@@ -33,8 +33,8 @@
 
 @interface YLWaterfallLayout : UICollectionViewLayout
 
-@property (nonatomic, assign) NSUInteger columnNumber;  // 列数 default 3
-@property (nonatomic, assign) CGFloat columnSpace;  // 列间距 default= 10
-@property (nonatomic, assign) CGFloat lineSpace;    // 行间距 default = 10
-@property (nonatomic, assign) CGFloat itemHeight;   // item 高度, default 100, 设置后 代理方法 - (CGFloat)collectionView: layout: heightForItemAtIndexPath: 会失效
+@property (nonatomic, assign) NSUInteger columnNumber;  // 列数 default = 3
+@property (nonatomic, assign) CGFloat columnSpace;      // 列间距 default= 10
+@property (nonatomic, assign) CGFloat lineSpace;        // 行间距 default = 10
+@property (nonatomic, assign) CGFloat itemHeight;       // item 高度, default 100, 设置后 代理方法 - (CGFloat)collectionView: layout: heightForItemAtIndexPath: 会失效
 @end
