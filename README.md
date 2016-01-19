@@ -1,6 +1,6 @@
 YLWaterfallView 瀑布流 使用方法
 =======
-
+# method 1
 ## #import "YLWaterfallLayout.h"
 ``` objective-c
  YLWaterfallLayout *layout = [[YLWaterfallLayout alloc] init];
@@ -22,3 +22,8 @@ YLWaterfallView 瀑布流 使用方法
 // 分组的 inset , default = UIEdgeInsetsMake(10, 10, 10, 10)
  - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section;
 ```
+
+
+# method 2
+## #import "YLWaterfallView.h"
+   模仿 UITableView, 手动管理内存 （待完善）
