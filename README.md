@@ -16,7 +16,7 @@ YLWaterfallView 瀑布流 使用方法
  // 返回每个分组的列数 ， default = 3
 - (NSUInteger)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout numberOfColumnsForSectionAtIndex:(NSUInteger)index;
 
-// 返回 cell 的高度 ，default = 100
+// 返回 item 的高度 ，default = 100
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout heightForItemAtIndexPath:(NSIndexPath *)indexPath;
 
 // 分组的 inset , default = UIEdgeInsetsMake(10, 10, 10, 10)
